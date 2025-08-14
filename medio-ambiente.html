@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="IMAGES/logo icfes.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="dropdown.js"></script>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Preguntas de Medio Ambiente - Un Minuto Para Ganar - ICFES</title>
+</head>
+
+<body>
+  
+    <aside class="vertical-sidebar"> <input type="checkbox" role="switch" id="checkbox-input" class="checkbox-input" checked />
+        <nav>
+            <header>
+                <div class="sidebar__toggle-container"> <label tabindex="0" for="checkbox-input" id="label-for-checkbox-input" class="nav__toggle"> <span class="toggle--icons" aria-hidden="true"> <svg width="24" height="24" viewBox="0 0 24 24" class="toggle-svg-icon toggle--open">
+                                <path d="M3 5a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2zM2 12a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1M2 18a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1"> </path>
+                            </svg> <svg width="24" height="24" viewBox="0 0 24 24" class="toggle-svg-icon toggle--close">
+                                <path d="M18.707 6.707a1 1 0 0 0-1.414-1.414L12 10.586 6.707 5.293a1 1 0 0 0-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 1 0 1.414 1.414L12 13.414l5.293 5.293a1 1 0 0 0 1.414-1.414L13.414 12z"> </path>
+                            </svg> </span> </label> </div>
+                <figure> <img class="codepen-logo" src="IMAGES/logo icfes.png" alt="" />
+                    <figcaption>
+                        <p class="user-id">UN MINUTO</p>
+                        <p class="user-role">para ganar - ICFES</p>
+                    </figcaption>
+                </figure>
+            </header>
+            <section class="sidebar__wrapper">
+                <ul class="sidebar__list list--primary">
+                    <li class="sidebar__item item--heading">
+                        <h2 class="sidebar__item--heading">general</h2>
+                    </li>
+                    
+                    <li class="sidebar__item">
+                        <a class="sidebar__link" href="index.html" data-tooltip="Inicio">
+                          <span class="icon">
+                            <i class="fas fa-home" style="color: #ffffff;"></i>
+                          </span>
+                          <span class="text">Inicio</span>
+                        </a>
+                      </li>
+                      
+                      <li class="sidebar__item">
+                        <a class="sidebar__link" href="quimica.html" data-tooltip="Preguntas de Química">
+                          <span class="icon">
+                            <i class="fa-regular fa-snowflake fa-beat" style="color: #ffffff;"></i>
+                          </span>
+                          <span class="text">Preguntas de Química</span>
+                        </a>
+                      </li>
+                      
+                      <li class="sidebar__item">
+                        <a class="sidebar__link" href="biologia.html" data-tooltip="Preguntas de Biología">
+                          <span class="icon">
+                            <i class="fa-brands fa-suse fa-beat" style="color: #ffffff;"></i>
+                          </span>
+                          <span class="text">Preguntas de Biología</span>
+                        </a>
+                      </li>
+                      
+                      <li class="sidebar__item">
+                        <a class="sidebar__link" href="fisica.html" data-tooltip="Preguntas de Física">
+                          <span class="icon">
+                            <i class="fa-brands fa-react fa-beat" style="color: #ffffff;"></i>
+                          </span>
+                          <span class="text">Preguntas de Física</span>
+                        </a>
+                      </li>
+                      
+                      <li class="sidebar__item">
+                        <a class="sidebar__link" href="medio-ambiente.html" data-tooltip="Preguntas de Medio Ambiente">
+                          <span class="icon">
+                            <i class="fa-solid fa-recycle fa-beat" style="color: #ffffff;"></i>
+                          </span>
+                          <span class="text">preguntas de Medio Ambiente</span>
+                        </a>
+                      </li>
+                </ul>
+            </section>
+        </nav>
+    </aside>
+
+    <section class="bg">
+        <div class='air air1'></div>
+        <div class='air air2'></div>
+        <div class='air air3'></div>
+        <div class='air air4'></div>
+
+        <main>
+            <section class="titulo">
+               
+                <div class="hover-container">
+                    <h1 class="explosive-text">Preguntas de Medio Ambiente</h1>
+                </div>
+            </section>
+
+            <!-- Contenido de la página de medio ambiente -->
+            <section class="content-section">
+                <div class="content-container">
+                    <h2>Selecciona el tipo de preguntas de medio ambiente</h2>
+                    
+                    <div class="options-grid">
+                        <a href="medioAmbienteConImagenes.html" class="option-card">
+                            <div class="option-icon">
+                                <i class="fas fa-image"></i>
+                            </div>
+                            <h3>Preguntas con Imágenes</h3>
+                            <p>Preguntas de medio ambiente </p>
+                        </a>
+                        
+                        <a href="medioAmbientSinImagenes.html" class="option-card">
+                            <div class="option-icon">
+                                <i class="fas fa-text-width"></i>
+                            </div>
+                            <h3>Preguntas sin Imágenes</h3>
+                            <p>Preguntas de medio ambiente </p>
+                        </a>
+                        
+                     
+            </section>
+        </main>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Script principal cargado");
+            
+            // Código original del hamburger (si existe)
+            var hamburger = document.getElementById("hamburger");
+            var sidebar = document.getElementById("sidebar");
+            var header = document.getElementById("header");
+            var logo = document.getElementById("logo");
+            
+            if (hamburger) {
+                hamburger.onclick = function() {
+                    this.classList.toggle("change");
+                    sidebar.classList.toggle("active");
+                };
+            }
+            
+            // Acción para el scroll
+            window.onscroll = function() {
+                if (window.scrollY > 50) {
+                    if (header) header.classList.add("scroll");
+                } else {
+                    if (header) header.classList.remove("scroll");
+                }
+            };
+        });
+    </script>
+
+</body>
+</html> 
